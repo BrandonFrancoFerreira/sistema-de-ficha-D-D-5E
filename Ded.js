@@ -1,19 +1,15 @@
-$(function(){
+function sla(){
     document.getElementById('sla').onclick = function(){
-    var classe = document.getElementById('classe');
-    console.log("a classe é " + classe.options[classe.selectedIndex].text);
-    var raca = document.getElementById('raca');
-    console.log("a raca é " + raca.options[raca.selectedIndex].text);
+    clas = document.getElementById('classe')
+    raca = document.getElementById('raca')
+   
+    document.getElementById("escolhaclasse").innerHTML = `a raça do seu personagem é ${raca.options[raca.selectedIndex].text} e sua classe é  ${clas.options[clas.selectedIndex].text}`
+    escolhac = document.getElementById('escolhaclasse')
+    
 
-    document.getElementById("escolhaclasse").innerHTML = classe.options[classe.selectedIndex].text;
-    document.getElementById("escolharaca").innerHTML = raca.options[raca.selectedIndex].text;
-
-    var escolha1 = document.getElementById('escolhaclasse')
-    var escolha2 = document.getElementById('escolharaca')
-
-    escolha1.style.display ="block"
-    escolha2.style.display ="block"
-
+    escolhac.style.display ="block"
+    escolhar.style.display ="block"
+    /*alert(`a raca é ${raca.options[raca.selectedIndex].text} e a classe é  ${clas.options[clas.selectedIndex].text}`)*/
 
     
 
@@ -23,4 +19,4 @@ $(function(){
 
    
     
-})
+}
