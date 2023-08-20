@@ -42,24 +42,26 @@ h2{
     border-radius: 15px;
     box-shadow: 10px 10px 10px rgb(121, 118, 118);
 }
-.classeeraca{
-    display: flex;
-}
+
 .classe, .raca{
-    width: 50%;
+    text-align: left;
     margin: 20px auto;
+    margin-left: 20px ;
+    
 }
-.escolhaclasse, .escolharaca{
+.escolha{
 
     background-color: #ffffff;
     width: 500px;
     text-align: center;
+    margin: 25px auto;
 
-    margin: 250px auto;
+    
     color: black;
     padding-top: 10px;
     display: none;
     border-radius: 25px;
 }
 .btn{
+    margin: 25px auto;
 }
