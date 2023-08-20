@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@600&display=swap" rel="stylesheet">
-
-    <H1>teste</H1>
+   
+    <header><img src="DD-Logo.png" width="200px"></header>
+    
 <section>
-    <div class="sel">
-        <div class="class">
-            <select name="classe" id="raca">
+    <div class="cont">
+        <div class="classeeraca">
+            <nav class="classe">
+            <h1>Classe</h1>
+            <select name="classe" id="classe">
+                <option selected hidden>Classe</option>
                 <option value="1">barbaro</option>
                 <option value="2">Bardo</option>
                 <option value="3">Bruxo</option>
@@ -29,7 +30,12 @@
                 <option value="11">Paladino</option>
                 <option value="12">Patrulheiro</option>
             </select>
+            <div id="escolhaclasse" class="escolhaclasse"></div>
+            </nav>
+            <nav class="raca">
+                <h1>Raça</h1>
             <select name="raca" id="raca">
+                <option selected hidden>Raça</option>
                 <option value="1">Anão</option>
                 <option value="2">Elfo</option>
                 <option value="3">Halfling</option>
@@ -40,8 +46,15 @@
                 <option value="8">Meio-Orc</option>
                 <option value="9">Tiefling</option>
             </select>
+            <div id="escolharaca" class="escolharaca"></div>
+        </nav>
         </div>
+        <button class="btn" id="sla" onclick="sla"> clique aqui</button>
     </div>
 </section>
+<footer>
+    <script src="jquery.js"></script>
+    <script src="Ded.js"></script>
+</footer>
 </body>
 </html>
