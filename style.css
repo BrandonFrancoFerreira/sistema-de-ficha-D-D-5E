@@ -49,6 +49,11 @@ h1 {
     border-radius: 25px;
 }
 .btn{
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 25px;
+    background-color: #504e4e;
+    cursor: pointer;
 }
 
 
