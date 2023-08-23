@@ -54,9 +54,26 @@ h1 {
     border-radius: 25px;
     background-color: #504e4e;
     cursor: pointer;
+    position: absolute;
+    top: 380px;
+    transform: translate(-50%);
 }
 
 
+select{
+
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+    -webkit-appearance: none;
+    cursor: pointer;
 
 
+}
+option {
 
+}
+
+select:has(option[value="2"]) {
+    color: red;
+  }
